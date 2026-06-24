@@ -4,317 +4,372 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tejas Davande — Backend Developer (SDE-II) with 3+ years building scalable Node.js / NestJS systems on AWS. Payment, media and real-time pipelines.">
+    <meta name="author" content="Tejas Davande">
+    <meta name="theme-color" content="#0a0e14">
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:title" content="Tejas Davande — Backend Developer">
+    <meta property="og:description" content="Backend Developer (SDE-II) · Node.js · NestJS · AWS · 3+ years building scalable systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tejasdavande.github.io/portfolio.github.io/">
+    <meta property="og:image" content="https://tejasdavande.github.io/portfolio.github.io/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tejas Davande — Backend Developer">
+    <meta name="twitter:description" content="Backend Developer (SDE-II) · Node.js · NestJS · AWS · 3+ years building scalable systems.">
+    <meta name="twitter:image" content="https://tejasdavande.github.io/portfolio.github.io/assets/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./Css/style.css">
-    <link rel="stylesheet" href="./Css/text.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Tejas Davande</title>
-    <link rel = "icon" href = "./assets/header_logo.png" type = "image/x-icon">
+
+    <title>Tejas Davande — Backend Developer</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="./assets/header_logo.png" type="image/png">
 </head>
 <body>
-    <span style="font-size:30px;cursor:pointer" class="burger" id="burger" onclick="openNav()">&#9776;</span>
-    <span href="javascript:void(0)" style="font-size:30px;cursor:pointer" id="close-btn" class="burger close-btn" onclick="closeNav()">&times;</span>
-    <div class="transition">
-        <div class="cover cover1"></div>
-        <div class="cover cover2"></div>
-        <div class="cover cover3"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader-ring"></div>
+        <span class="loader-text">TD</span>
     </div>
-    <div class="wrapper">
-        <div>
-            <div class="side-bar" id="side-bar">
-                <div class="logo" id="img">
-                    <img id="img" class="img-logo" src="assets/logo.jpg">
-                    <span id="img" style="margin-left: 85px;">Tejas</span>
-                    <span id="img" class="role" style="text-align: justify;" >Full Stack Developer</span>
-                </div>
-                <nav id="nav">
-                    <a class="link" href="#home">Home</a>
-                    <a class="link" href="#skills">My Skills</a>
-                    <a class="link" href="#projects">Projects</a>
-                    <a class="link" href="#about">About</a>
-                    <a href="https://twitter.com/TDavande" class="social-link"><i class="fa fa-twitter social"></i></a>
-                    <a  class="social-link" href="https://www.linkedin.com/in/tejas-davande-697579146/"><i class="fa fa-linkedin social"></i></a>
-                    <a  class="social-link"  href="https://github.com/tejasdavande"><i class="fa fa-github social"></i></a>
-                    <a  class="social-link" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbhMjrzwQPSrQjnNxCZctTppvHTXHxBFVZRQDCfndjqBQjNdQhtnsZntZfbfWLZFGfBqCV"><i class="fa fa-envelope social"></i></a>
-                </nav>
-                <a id="resume-btn" class="resume-btn" href="./assets/Tejas_D_Resume.pdf" target="blank"><i class="fa fa-download" aria-hidden="true"></i></a>
-            </div>
-        </div>
-        <div class="main">
-            <div id="home" class="home">
-                <div class="myname sign">
-                    <span class="fast-flicker">Hi, I'm<span>
-                    <span>Tejas </span> <br>
-                    <span class="flicker">Full stack developer</span>
-                </div>
-            </div>
-            <div id="skills" class="skills">
-                <div class="theory">
-                    <span> <p class="animate_skills"> Skills & <br> Experience </p></span>
-                    <p>I specialize in creating responsive websites that are both aesthetically pleasing and user-friendly. My main area of expertise lies in back-end development, where I work magic with Node.js and JavaScript. In addition, I boast considerable experience in front-end frameworks, including React, HTML, and CSS.</p>
-                    <p>I am well-versed in the art of version control, skillfully utilizing Git and GitHub to ensure seamless collaboration among developers. As for database systems, I possess hands-on experience with MongoDB, expertly managing and retrieving data.</p>
-                    <p>Let me be your trusted companion on the journey to building enchanting web experiences. With my skills in both back-end and front-end development, I will create a digital world that captivates and delights all who encounter it. Together, we will weave a realm of captivating websites that leave a lasting impression on users and stand as a testament to the magic of technology.</p>
-                    <div class="skills-tags" >
-                        <span class="tags" data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">NodeJs</span>
-                        <span class="tags" data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">React</span>
-                        <span class="tags" data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">MongoDB</span>
-                        <span class="tags" data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">javascript</span>
-                        <span class="tags" data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">HTML</span>
-                        <span class="tags" data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">CSS</span>
-                        <span class="tags"data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">MongoDB</span>
-                        <span class="tags"data-aos="fade-right"
-                        data-aos-offset="200"
-                        data-aos-easing="ease-in-sine">Promt-ChatGPT</span>
-                       
-                    </div>
-                </div>
-                <div class="tech-skill">
-                    <div class="internship">
-                        <div class="Bitgenie" data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
-                            <h2 style="font-size: 1.6em;">   Jr. Full stack developer</h2>
-                            <span style="font-size: 0.8rem;color: #ccc; text-align: justify;">APRIL 2023 - PRESENT @  BGRYT, Andheri</span> <br>
-                            <br><br><span style="color:#ccc;text-align: justify;">Developed premium user dashboard module, which grants users 
-                                access to essential research on various companies, enabling them 
-                                to make informed decisions when purchasing stocks. <br>Responsibilities were analyzing the existing codebase and 
-                                implementing any necessary changes based on change requests. 
-                                
-                                </span>
-                        </div>
-                        <div class="Iot" data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
-                            <h2 style="font-size: 1.45em;">Junior Software Developer</h2>
-                            <span style="font-size: 0.8rem;color: #ccc;">OCTOBER 2022 - APRIL 2023 @ RDC Concrete India Pvt. Ltd. </span> <br>
-                            <br> <span style="color: #ccc;text-align: justify;">Created a birthday API which sends custom message and Email to 
-                                the employee which was the part of our employee management 
-                                system.<br>Also played a major role in developing employee referral and 
-                                employee resume storing and shortlisting feature for the same 
-                                system.                                 
-                                </span>
-                        </div>
-                        <div class="examiner" data-aos="fade-up"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
-                            <h2>Developer</h2>
-                            <span style="font-size: 0.8rem;color: #ccc;">APRIL 2023 - JUNE 2023 As Freelancing Project</span> <br>
-                            <br><span style="color: #ccc;text-align: justify;">Create a secure Voting Application using Node.js for the Backend and React.js for the Frontend, with MongoDB, JWT, and Bcrypt for enhanced security. Users can register, vote once, while the Admin oversees the vote count. Harness the power of Node.js and React.js for seamless data management and captivating user interfaces, backed by the efficiency of MongoDB for database storage.</span>
-                        </div>
 
-                        <div class="examiner" data-aos="fade-up"
-                        data-aos-offset="320"
-                        data-aos-easing="ease-in-sine">
-                            <h2>Backend Developer</h2>
-                            <span style="font-size: 0.8rem;color: #ccc;">APRIL 2023 - JUNE 2023 </span> <br>
-                            <br><span style="color: #ccc;text-align: justify;">Created user login/signup functionality with JWT authentication and password was hashed using the crypto library.<br> Added CRUD functionality for bhoolus (youths) and mandal 
-                                (region)<br>Developed attendance functionality to update attendance once 
-                                every week<br>Created an API which provides follow-up names of youths under 
-                                one mentor.</span>
-                        </div>
-                    </div>
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="#home" class="nav-brand">
+            <span class="brand-mark">TD</span>
+            <span class="brand-name">Tejas Davande</span>
+        </a>
+
+        <nav class="nav-links" id="nav-links">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-resume" href="./assets/Tejas_Davande_Resume.pdf" target="_blank" rel="noopener">
+                <i class="fa-solid fa-download"></i> Resume
+            </a>
+        </nav>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div id="hero-bg" class="hero-bg">
+                <span class="mesh mesh-1"></span>
+                <span class="mesh mesh-2"></span>
+                <span class="mesh mesh-3"></span>
+                <div class="hero-grid"></div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-greet reveal">Hi, I'm</p>
+                <h1 class="hero-name reveal">Tejas Davande</h1>
+                <h2 class="hero-role">
+                    <span class="role-static">I build </span>
+                    <span class="role-rotate" id="role-rotate"></span>
+                </h2>
+                <p class="hero-tagline reveal">
+                    Backend Developer (SDE-II) with 3+ years crafting scalable
+                    <strong>Node.js</strong> &amp; <strong>NestJS</strong> systems on
+                    <strong>AWS</strong> — payment, media and real-time pipelines built for scale.
+                </p>
+                <div class="hero-cta reveal">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="./assets/Tejas_Davande_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
                 </div>
-            </div><br>
-            <div id="projects" class="projects" style="margin-top: 50px;">
-                <div class="container">
-                    <img src="assets/Ecommerce.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                    <div class="text">Voting Application</div>
-                    <div  class="project_links">
-                        <a style="color: white; padding: 2px;"   href="https://github.com/tejasdavande/voting"><i class="fa fa-github social"></i></a>
-                    </div>
-                    </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/askanything.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Sampark-Online Attendance</div>
-                                <div  class="project_links">
-                                    <a style="color: white; padding: 2px;"  href="https://github.com/tejasdavande/Sampark-Online-Attendance"><i class="fa fa-github social"></i></a>
-                                </div>
-                            </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/filesharing.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Zomato-Server</div>
-                                <div  class="project_links">
-                                    <a style="color: white; padding: 2px;" href="https://github.com/tejasdavande/zomato.server"><i class="fa fa-github social"></i></a>
-                                </div>
-                            </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/news.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Ecommerce Website</div>
-                                <div  class="project_links">
-                                    <a style="color: white; padding: 2px;" href="https://github.com/tejasdavande/amazon_html_css"><i class="fa fa-github social"></i></a>
-                                </div>
-                            </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/ticktacktoe.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Coming Soon</div>
-                                <div  class="project_links">
-                                    <!-- <a style="color: white; padding: 2px;"  href="https://github.com/dakshit050/online-tic-tack-toe"><i class="fa fa-github social"></i></a>
-                                    <a style="color: white;padding: 2px;" href="https://spring-tic-tack-toe.herokuapp.com"><i class="fa fa-link"></i></a> -->
-                                </div>
-                            </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/ticktacktoe.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Coming Soon</div>
-                                <div  class="project_links">
-                                    <!-- <a style="color: white; padding: 2px;"  href="https://github.com/dakshit050/Remote-Access"><i class="fa fa-github social"></i></a> -->
-                                </div>
-                            </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/ticktacktoe.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Coming Soon</div>
-                                <div  class="project_links">
-                                    <!-- <a style="color: white; padding: 2px;"  href="https://github.com/dakshit050/IOT-Inventory-Issue-Return-System-/tree/final"><i class="fa fa-github social"></i></a> -->
-                                </div>
-                            </div>
-                </div>
-                    <div class="container">
-                            <img src="assets/ticktacktoe.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Coming Soon</div>
-                                <div  class="project_links">
-                                    <!-- <a style="color: white; padding: 2px;" href="https://github.com/dakshit050/snake-with-java"><i class="fa fa-github social"></i></a> -->
-                                </div>
-                            </div>
+                <div class="hero-socials reveal">
+                    <a href="https://github.com/tejasdavande" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tejas-davande-697579146/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=tejasdavande99@gmail.com&amp;su=Hello%20Tejas" target="_blank" rel="noopener" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="about" id="about">
-                <div class="aboutme">
-                    <span class="title"> <p class="animate_skills"> AboutMe</p> </span>
+            <a href="#about" class="scroll-down" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats">
+            <div class="stat reveal">
+                <span class="stat-num" data-target="3" data-suffix="+">0</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat-num" data-target="85" data-suffix="%">0</span>
+                <span class="stat-label">Faster APIs</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat-num" data-target="5" data-suffix="K+">0</span>
+                <span class="stat-label">Files / Day</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat-num" data-target="18" data-suffix="K+">0</span>
+                <span class="stat-label">Users Served</span>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <h2 class="section-title reveal"><span class="title-index">01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I'm a Backend Developer based in <strong>Mumbai, India</strong>, with <strong>3+ years</strong> of experience designing high-throughput, scalable systems. I currently work as a <strong>Software Development Engineer II</strong> at Ink In Caps.</p>
+                    <p>My focus is backend architecture, AWS-based microservices, asynchronous job pipelines and performance optimization. I've improved API performance by up to <strong>85%</strong>, cut server load by <strong>80%</strong>, and built payment systems processing <strong>₹8L+ GMV</strong>.</p>
+                    <p>I care about clean, modular, testable code — I modernized a legacy JavaScript monolith into a dependency-injected NestJS architecture, and work fluently across MongoDB, PostgreSQL, Redis, S3, BullMQ and Docker.</p>
+                    <p class="about-extra">Outside of code, I'm a youth leader at the <a href="https://www.ihariprabodham.org/" target="_blank" rel="noopener" class="inline-link">Hariprabodham Foundation</a>, organizing weekly assemblies for youth development since 2015.</p>
                 </div>
-                <div class="education">
-                    <div class="forposition" data-aos="fade-up"
-                    data-aos-anchor-placement="top-center">
-                        <i class="fa fa-graduation-cap"></i>
-                        <div class="degree">
-                                <span class="tags">2016 - 2020</span>
-                                <p class="place">Rajiv Gandhi Institute Of Technology</p>
-                                <p class="place">Andheri — B.E. in Mechanical Engineering</p>
-                                <p class="place">Aggregate GPA:  8.67</p>
-                        </div>
-                    </div>
+                <aside class="about-card reveal">
+                    <h3>Quick Facts</h3>
+                    <ul class="facts">
+                        <li><i class="fa-solid fa-location-dot"></i> Mumbai, Maharashtra, India</li>
+                        <li><i class="fa-solid fa-briefcase"></i> SDE-II @ Ink In Caps</li>
+                        <li><i class="fa-solid fa-graduation-cap"></i> B.E. — CGPA 8.67/10</li>
+                        <li><i class="fa-solid fa-language"></i> English · Hindi · Marathi · Gujarati</li>
+                        <li><i class="fa-solid fa-envelope"></i> tejasdavande99@gmail.com</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
 
-                <div class="forposition" data-aos="fade-up"
-                data-aos-anchor-placement="top-center">
-                    <i class="fa fa-graduation-cap"></i>
-                        <div class="degree">
-                            <span class="tags">2016</span>
-                            <p class="place"> Sathaye College</p>
-                            <p class="place" > Vile Parle — HSC</p> 
-                            <p class="place" >Percentage: 79.80</p>
-                        </div>
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <h2 class="section-title reveal"><span class="title-index">02.</span> Skills &amp; Tech</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-head"><i class="fa-solid fa-code"></i><h3>Languages &amp; Frameworks</h3></div>
+                    <div class="chips">
+                        <span>JavaScript (ES6+)</span><span>TypeScript</span><span>Node.js</span>
+                        <span>NestJS</span><span>Express.js</span><span>Python</span>
                     </div>
-
-                    <div class="forposition" data-aos="zoom-out">
-                        <i class="fa fa-graduation-cap"></i>
-                            <div class="degree">
-                                <span class="tags">2014</span>
-                                <p class="place">Parle Tilak Vidyalaya</p>
-                                <p class="place" >Vile Parle — SSC</p>
-                                <p class="place">Percentage: 84.20</p>
-                            </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-head"><i class="fa-solid fa-bolt"></i><h3>APIs &amp; Real-Time</h3></div>
+                    <div class="chips">
+                        <span>REST APIs</span><span>WebSockets</span><span>Socket.io</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-head"><i class="fa-solid fa-database"></i><h3>Databases &amp; Caching</h3></div>
+                    <div class="chips">
+                        <span>MongoDB</span><span>Geospatial</span><span>PostgreSQL</span>
+                        <span>Redis</span><span>Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-head"><i class="fa-brands fa-aws"></i><h3>Cloud &amp; Infrastructure</h3></div>
+                    <div class="chips">
+                        <span>AWS EC2</span><span>Lambda</span><span>S3</span><span>SES</span>
+                        <span>Auto Scaling</span><span>Docker</span><span>CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-head"><i class="fa-solid fa-layer-group"></i><h3>Messaging &amp; Jobs</h3></div>
+                    <div class="chips">
+                        <span>BullMQ</span><span>RabbitMQ</span><span>Agenda.js</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-head"><i class="fa-solid fa-shield-halved"></i><h3>Media &amp; Security</h3></div>
+                    <div class="chips">
+                        <span>FFmpeg</span><span>Sharp</span><span>HLS</span>
+                        <span>JWT</span><span>SSO</span><span>2FA / TOTP</span><span>CASL</span>
                     </div>
                 </div>
             </div>
+        </section>
 
-
-            <footer id="footer">
-                <div class="copyright">
-                    ©
-                    <span><span class="copy-year">2023</span>,&nbsp;</span>
-                    MADE WITH&nbsp; ❤&nbsp; BY TEJAS
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section">
+            <h2 class="section-title reveal"><span class="title-index">03.</span> Experience</h2>
+            <div class="timeline">
+                <div class="tl-item reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-date">Aug 2023 — Present</span>
+                        <h3>Software Development Engineer II</h3>
+                        <span class="tl-org">Ink In Caps · Mumbai</span>
+                        <ul>
+                            <li>Designed high-throughput REST APIs reducing latency <strong>85%</strong> (8s → ~1.5s) via async processing, query optimization and caching.</li>
+                            <li>Built a secure AWS S3 direct-upload pipeline (presigned URLs, multipart, <strong>5K+ uploads/day</strong>).</li>
+                            <li>Delivered MongoDB geospatial search (<strong>&lt;200ms</strong> across 10K+ locations) powering real-time matchmaking for <strong>18K+ users</strong>.</li>
+                            <li>Created a media-processing microservice offloading <strong>80%</strong> of core server load (5K+ files/day) with BullMQ + S3.</li>
+                            <li>Integrated <strong>Stripe</strong> on Hefty Verse — 600+ monthly transactions, <strong>₹8L+ GMV</strong>, 98% success rate.</li>
+                            <li>Modernized a legacy JS monolith into modular <strong>NestJS</strong> with dependency injection.</li>
+                        </ul>
+                    </div>
                 </div>
-            </footer>
-        </div>
-    </div>
-    <script>
-        window.onload=()=>{
-            const link=document.querySelectorAll(".link");
-            const transition=document.querySelector(".transition");
-            for(let i=0;i<link.length;i++){
-                const anchor=link[i];
-                anchor.addEventListener('click',e=>{
-                    e.preventDefault();
-                    transition.style.display="block";
-                    transition.classList.add("slide");
-                    let target=e.target.href.split("#")[1];
-                    setTimeout(()=>{
-                    document.getElementById(target).scrollIntoView();
-                    transition.classList.remove("slide");
-                    var x = window.matchMedia("(max-width: 1024px)")
-                    if (x.matches) {
-                        closeNav();
-                    }
-                    transition.style.display="none";
-                },900);
-                });
-            }
-        };
-        function openNav() {
-        document.getElementById("side-bar").style.width = "100%";
-        document.getElementById('burger').style.display="none";
-        document.getElementById("img").style.display="block";
-        document.getElementById("nav").style.display="block";
-        document.getElementById('close-btn').style.display="inline";
-        document.getElementById('resume-btn').style.display="none";
-        }
+                <div class="tl-item reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-date">Dec 2020 — May 2023</span>
+                        <h3>Operations Officer</h3>
+                        <span class="tl-org">RDC Concrete India Pvt. Ltd. · Mumbai</span>
+                        <ul>
+                            <li>Achieved <strong>100%</strong> system uptime and reduced downtime by 50% through monitoring workflows.</li>
+                            <li>Managed Oracle/DMS procurement tracking with <strong>500+</strong> monthly records and zero discrepancies.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        function closeNav() {
-        document.getElementById("side-bar").style.width = "0%";
-        document.getElementById("nav").style.display="none";
-        document.getElementById("img").style.display="none";
-        document.getElementById('burger').style.display="inline";
-        document.getElementById('close-btn').style.display="none";
-        document.getElementById('resume-btn').style.display="block";
-        }
-    </script>  
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!--     <script src="./Js/main.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-    <script>
-        VANTA.BIRDS({
-        el: "#home",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        backgroundColor:"#282828",
-        colorMode: "lerpGradient"
-        })
-    </script>   
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <h2 class="section-title reveal"><span class="title-index">04.</span> Education</h2>
+            <div class="edu-grid">
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="edu-body">
+                        <span class="edu-date">Aug 2016 — Nov 2020</span>
+                        <h3>B.E. in Mechanical Engineering</h3>
+                        <span class="edu-org">Rajiv Gandhi Institute of Technology, Andheri</span>
+                        <span class="edu-sub">University of Mumbai · CGPA 8.67 / 10</span>
+                    </div>
+                </div>
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="edu-body">
+                        <span class="edu-date">Self-driven · Ongoing</span>
+                        <h3>Backend Engineering</h3>
+                        <span class="edu-org">Node.js · NestJS · TypeScript · AWS · System Design</span>
+                        <span class="edu-sub">Transitioned from Mechanical to Software — 3+ years shipping production systems</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <h2 class="section-title reveal"><span class="title-index">05.</span> Projects</h2>
+            <div class="projects-grid">
+
+                <article class="project reveal" style="--g1:#0ea5b7;--g2:#0d4f5c;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-server project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>KNKY — Core Backend</h3>
+                    <p>High-throughput REST APIs, RBAC with SSO &amp; 2FA, and geospatial matchmaking serving 18K+ users in production.</p>
+                    <div class="project-tech"><span>NestJS</span><span>MongoDB</span><span>Redis</span><span>AWS S3</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#7c3aed;--g2:#3b1d6e;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-photo-film project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>KNKY-AssetOptimiser</h3>
+                    <p>Standalone media-processing microservice offloading 80% server load, processing 5K+ files/day with adaptive HLS streaming.</p>
+                    <div class="project-tech"><span>FFmpeg</span><span>Sharp</span><span>BullMQ</span><span>HLS</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#f59e0b;--g2:#7c4a06;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-gamepad project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>Hefty Verse</h3>
+                    <p>Gaming &amp; e-commerce platform — Stripe payments (₹8L+ GMV), gamification engines, coupon marketplace and AI characters.</p>
+                    <div class="project-tech"><span>Stripe</span><span>NestJS</span><span>MongoDB</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#10b981;--g2:#0a5e44;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-wand-magic-sparkles project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>AI Image Generation</h3>
+                    <p>Stable Diffusion service with a FastQ task queue for sequential processing and WebSocket real-time progress updates.</p>
+                    <div class="project-tech"><span>Stable Diffusion</span><span>FastQ</span><span>Socket.io</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#3b82f6;--g2:#1e3a8a;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-cloud-arrow-up project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>Knky-Uploader</h3>
+                    <p>AWS Multipart Upload with presigned URLs for secure direct-to-S3 transfers up to 5GB, with reduced server bandwidth.</p>
+                    <div class="project-tech"><span>AWS S3</span><span>Multipart</span><span>Presigned URLs</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#ec4899;--g2:#831843;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-bolt project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>IIC — Serverless Forms</h3>
+                    <p>Serverless pipeline using AWS Lambda + Google Drive/Sheets API for automated PDF uploads — zero infra cost on free tier.</p>
+                    <div class="project-tech"><span>AWS Lambda</span><span>Google APIs</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#ef4444;--g2:#7f1d1d;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-shield-heart project-icon"></i>
+                        <span class="project-badge">Production</span>
+                    </div>
+                    <h3>Dr Reddy — Healthcare Platform</h3>
+                    <p>End-to-end encryption with Crypto-TS for secure healthcare data transmission, ensuring compliance with data-protection standards for sensitive patient information.</p>
+                    <div class="project-tech"><span>NestJS</span><span>Crypto-TS</span><span>MongoDB</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#06b6d4;--g2:#155e75;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-square-check project-icon"></i>
+                        <a href="https://github.com/tejasdavande/voting" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <h3>Voting Application</h3>
+                    <p>Secure voting app — Node.js + React with MongoDB, JWT and Bcrypt. One vote per user, admin oversees the count.</p>
+                    <div class="project-tech"><span>Node.js</span><span>React</span><span>JWT</span></div>
+                </article>
+
+                <article class="project reveal" style="--g1:#8b5cf6;--g2:#4c1d95;">
+                    <div class="project-top">
+                        <i class="fa-solid fa-user-check project-icon"></i>
+                        <a href="https://github.com/tejasdavande/Sampark-Online-Attendance" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <h3>Sampark — Attendance</h3>
+                    <p>Online attendance system with JWT auth, CRUD for youths &amp; regions, weekly attendance and mentor follow-up APIs.</p>
+                    <div class="project-tech"><span>Node.js</span><span>MongoDB</span><span>JWT</span></div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact">
+            <h2 class="section-title reveal"><span class="title-index">06.</span> Get In Touch</h2>
+            <p class="contact-lead reveal">I'm open to backend and full-stack opportunities, collaborations, or just a good tech conversation. Let's build something great.</p>
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=tejasdavande99@gmail.com&amp;su=Hello%20Tejas" target="_blank" rel="noopener" class="btn btn-primary reveal">Say Hello</a>
+            <div class="contact-socials reveal">
+                <a href="https://github.com/tejasdavande" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tejas-davande-697579146/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=tejasdavande99@gmail.com&amp;su=Hello%20Tejas" target="_blank" rel="noopener" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year">2026</span> · Designed &amp; built with <span class="heart">❤</span> by Tejas Davande</p>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="./Js/main.js"></script>
 </body>
 </html>
