@@ -116,6 +116,7 @@
             'Node.js & NestJS APIs',
             'AWS microservices',
             'real-time pipelines',
+            'AI-powered backends',
             'high-performance APIs'
         ];
         var ri = 0, ci = 0, deleting = false;
