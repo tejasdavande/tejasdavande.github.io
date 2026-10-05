@@ -10,6 +10,7 @@ Source of truth for content: my private experience report (kept locally, not com
 ## 2026-10-05 (third update)
 
 - Removed "Leading 3 backend engineers" from About → Quick Facts.
+- 2026-10-06: removed the remaining team-size mentions (About paragraph, Experience bullet). The Experience bullet now keeps only the solo-ownership part.
 
 ## 2026-10-05 (second update)
 
@@ -66,6 +67,7 @@ Source of truth for content: my private experience report (kept locally, not com
 
 - Never use internal client codenames anywhere on the site, in the README, or in file names.
 - Use 30K+ for platform users. Don't also quote 18K+.
+- Don't mention leading 3 backend engineers or the 12-person team size on the website. They stay on the resume only.
 - Keep the site's skills and numbers in sync with the downloadable resume. When one changes, update the other.
 - Only list skills that can be defended in an interview. No Kubernetes, Kafka, GraphQL, Go, Java, etc.
 - Don't add numbers that weren't measured.
