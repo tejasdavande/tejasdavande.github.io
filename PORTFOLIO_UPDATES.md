@@ -7,6 +7,11 @@ Source of truth for content: my private experience report (kept locally, not com
 
 ---
 
+## 2026-10-05 (second update)
+
+- Replaced `assets/Tejas_Davande_Resume.pdf` with the current 1-page resume: generic project names, job-search email, 30K+ users, promotion and team lead, plus LinkedIn / GitHub / portfolio links. Same filename, so the download buttons didn't need changes.
+- Added **RabbitMQ** back to Skills → Queues & Async so the site matches the resume.
+
 ## 2026-10-05
 
 ### Changed
@@ -45,7 +50,6 @@ Source of truth for content: my private experience report (kept locally, not com
 
 | Item | Why not / when |
 |---|---|
-| Downloadable resume `assets/Tejas_Davande_Resume.pdf` | **Outdated** — still has old project codenames, personal email and 18K+ users. Replace with the current 1-page resume (same filename keeps the links working). |
 | `og-image.png` | Not reviewed this round — check its text matches the current title/stats. |
 | Data Ingestion API Gateway (enterprise project) | Left out to keep the projects grid focused; add if a security/API-gateway angle is wanted. |
 | Import Service, Queue Monitoring Dashboard | Internal tooling, low signal for recruiters. |
@@ -58,6 +62,7 @@ Source of truth for content: my private experience report (kept locally, not com
 
 - Never use internal client codenames anywhere on the site, in the README, or in file names.
 - Use 30K+ for platform users. Don't also quote 18K+.
+- Keep the site's skills and numbers in sync with the downloadable resume. When one changes, update the other.
 - Only list skills that can be defended in an interview. No Kubernetes, Kafka, GraphQL, Go, Java, etc.
 - Don't add numbers that weren't measured.
 - Add a new dated entry here for every content change.
