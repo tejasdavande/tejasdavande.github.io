@@ -7,6 +7,10 @@ Source of truth for content: my private experience report (kept locally, not com
 
 ---
 
+## 2026-10-05 (third update)
+
+- Removed "Leading 3 backend engineers" from About → Quick Facts.
+
 ## 2026-10-05 (second update)
 
 - Replaced `assets/Tejas_Davande_Resume.pdf` with the current 1-page resume: generic project names, job-search email, 30K+ users, promotion and team lead, plus LinkedIn / GitHub / portfolio links. Same filename, so the download buttons didn't need changes.
