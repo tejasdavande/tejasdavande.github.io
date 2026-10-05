@@ -50,7 +50,7 @@ Source of truth for content: my private experience report (kept locally, not com
 
 | Item | Why not / when |
 |---|---|
-| `og-image.png` | Not reviewed this round — check its text matches the current title/stats. |
+| `og-image.png` | Reviewed 2026-10-05: accurate (Backend Developer · SDE-II, Node.js/NestJS/TypeScript/AWS/MongoDB/Redis). Tagline doesn't mention AI work yet — optional refresh. |
 | Data Ingestion API Gateway (enterprise project) | Left out to keep the projects grid focused; add if a security/API-gateway angle is wanted. |
 | Import Service, Queue Monitoring Dashboard | Internal tooling, low signal for recruiters. |
 | Scale details: 800–1,000 concurrent users, ~40K API calls per peak cycle | Concurrent users is in Experience; the API-call figure is resume-only. |
